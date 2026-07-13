@@ -1,0 +1,1 @@
+Give me html,css codes for a simple ,easy and beginner friendly FAQ section for my programmig assignment.
