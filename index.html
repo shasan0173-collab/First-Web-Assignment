@@ -7,41 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <!-- starting of nav section -->
       <header>
         <nav>
-          
-            
-            <ul class="cls1">
-                  <img src="image/logo-mini.png">
-                  <div class="dv1">
-                <li>DEVCONF</li>
-                <li>2026</li>
-                </div>
-             </ul>
-            
-                <ul class="cls2">
+          <div class="cls1">
+    <img src="image/logo-mini.png" alt="DevConf Logo">
+
+    <div class="dv1">
+        <p>DEVCONF</p>
+        <p>2026</p>
+    </div>
+</div> 
+<ul class="cls2">
                     <li>Speaker</li>
                     <li>Schedule</li>
                     <li>Track</li>
                     <li>Venue</li>
                     <li>Blog</li>
+                 </ul>
+            <button class="button">Register Now</button>
+         </nav>
+ </header>
+ <!-- end of nav section -->
 
-                </ul>
-            
-            
-                <button class="button">Register Now</button>
-            
-                   
-            
-            
-        
-        </nav>
-    </header>
-     <div>
-              <div class="banner-container">
-    <img class="banner" src="image/banner.jpg" alt="Conference Banner">
+ <!-- starting of banner section -->
+<div class="banner-container">
+    <img class="banner" src="./image/banner.jpg" alt="Conference Banner">
 
-    <div class="overlay"></div> <!-- Add this -->
+    <div class="overlay"></div>
 
     <div class="banner-text">
         <h1>
@@ -58,94 +51,125 @@
 
         <button class="banner-btn">Register Now</button>
     </div>
-</div>  
+</div>
+
+
+ <!-- starting of speaker section -->
 <section>
     <p class="meet">Meet the Speakers</p>
 </section>
 <div class="box-container">
     <div class="box">
-       <img src="image/andrej.png">
+       <img src="./image/andrej.png">
        <p class="experties">AI/ML</p>
         <P class="name">Andrej Karapathy</P>
         <p class="post">Pretraining team, Anthropic</p>
-        
     </div>
     <div class="box">
-        <img src="image/demis.png">
+        <img src="./image/demis.png">
         <p class="experties">CLOUD & DEVOPS</p>
         <P class="name">Demis Hassabis</P>
         <p class="post">Co-Founder and CEO, Google DeepMInd</p>
     </div>
       <div class="box">
-        <img src="image/gary.png">
+        <img src="./image/gary.png">
         <p class="experties">FRONT END</p>
         <P class="name">Gary Marcus</P>
         <p class="post">Staff Engineer, Vercel</p>
     </div>
     <div class="box">
-        
-        <img src="image/mustafa.png">
+        <img src="./image/mustafa.png">
         <p class="experties">SECURITY</p>
         <P class="name">Mustafa Suleyman</P>
         <p class="post">CEO of Microsoft AI</p>
-    
-    </div>
-    <section class="register">
-    <h2 class="register-title">Secure Your Spot</h2>
-    <p class="register-subtitle">
-        Early-bird pricing ends August 15, 2026.
-    </p>
+        </div>
+     </div>
+     <!-- end of speaker section -->
 
+     <!-- sarting of card section -->
+<section class="register">
+    <h2 class="register-title">Secure Your Spot</h2>
+ <p class="register-subtitle">Early bird pricing ends August 15, 2026.</p>
 <div class="card-container">
-    <div class="person">
-         <p class="person-title">Person</p>
-        <h1 class="person-price">$399</h1>
-         <p class="person-info">per person</p>
-         <ul>
-        <li>Everything in Pro (10 seats)</li>
-        <li>Dedicated team lounge access</li>
-        <li>Private workshop booking</li>
-        <li>Company logo on event page</li>
-        <li>Recruitment booth (1 day)</li>
-        <li>Priority customer support</li>
-    </ul>
-    <button class="team-btn">Contact Us</button>
-</div>  
-<div class="pro">
-         <p class="pro-title">Pro</p>
-        <h1 class="pro-price">$749</h1>
-         <p class="pro-info">per person</p>
-          <hr class="team-line">
-           <ul class="team-list">
-        <li>Everything in standard</li>
-        <li>Unlimited workshop access</li>
+<div class="card"> 
+    <p class="plan">STANDARD</p>
+    <h2 class="price">$399</h2>
+     <p class="price-info">per person</p>
+     <hr>
+     <ul> 
+        <li>Access to all 3 conference days</li>
+        <li>48 curated technical talks</li>
+        <li>2 workshop sessions</li>
+        <li>Networking lunch & coffee breaks</li>
+        <li>Conference swag bag</li>
+        <li>Digital recordings (30 days)</li>
+    </ul> <button>Get Standard</button>
+</div>
+<div class="card pro">
+    <p class="plan">PRO</p>
+    <h2 class="price">$749</h2>
+    <p class="price-info">per person</p>
+    <hr >
+    <ul>
+        <li>Everything in Standard</li> 
+        <li>Unlimited workshop access</li> 
         <li>Speaker meet & greet</li>
         <li>VIP networking dinner</li>
-        <li>Life time recording access</li>
-        <li>1-ON-mentorship (30 min)</li>
-    </ul>
-    <button class="team-btn">Get Pro</button>
+        <li>Lifetime recording access</li>
+        <li>1-on-1 mentorship (30 min)</li>
+        </ul><button>Get Pro</button>
+     </div>
+     <div class="card">
+        <p class="plan">TEAM</p>
+        <h2 class="price">$5,999</h2>
+        <p class="price-info">up to 10 people</p>
+        <hr>
+            <ul>
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth</li>
+                <li>Priority support</li>
+            </ul>
+            <button>Contact Us</button>
+         </div>
+         </div>
+        </section>
+        <!-- end of card section -->
 
-</div>
-<div class="team">
-         <p class="team-title">Team</p>
-        <h1 class="person-price">$5999</h1>
-         <p class="person-info">Up to 10 people</p>
-          <hr class="team-line">
-           <ul class="team-list">
-        <li>Everything in Pro (10 seats)</li>
-        <li>Dedicated team lounge access</li>
-        <li>Private workshop booking</li>
-        <li>Company logo on event page</li>
-        <li>Recruitment booth (1 day)</li>
-        <li>Priority customer support</li>
-    </ul>
-    <button class="team-btn">Contact Us</button>
-
+        <!-- starting of FAQ section -->
+        <section class="faq">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+     <div class="faq-item">
+        <h3>Who can attend the conference?</h3>
+        <p>Anyone interested in software development, AI, cloud computing, or technology is welcome to attend.</p>
     </div>
-
-</div>
-
+     <div class="faq-item">
+        <h3>Will the sessions be recorded?</h3>
+        <p>Yes. All attendees will receive access to the recorded sessions after the conference.</p>
+    </div>
+     <div class="faq-item">
+        <h3>Do you provide certificates?</h3>
+        <p>Yes. Every participant will receive a digital certificate of attendance.</p>
+    </div>
+     <div class="faq-item">
+        <h3>Can I cancel my ticket?</h3>
+        <p>Yes. Tickets can be cancelled up to 14 days before the event for a full refund.</p>
+    </div>
 </section>
+  <!-- end of FAQ section -->
+
+    <!-- starting of footer section -->
+<footer class="footer">
+    <div class="footer-container">
+         <p>© 2026 DevConf. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+     </div>
+</footer>
+<!-- end of footer section -->
 </body>
 </html>
